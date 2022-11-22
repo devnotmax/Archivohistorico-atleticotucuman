@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.header img{
+    width: 100%;
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    font-family: inter;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: aliceblue;   
 }
